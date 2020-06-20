@@ -1,0 +1,413 @@
+{
+    "asia" : [
+        {
+            "title" : "dastan",
+            "description":"",
+            "genreId":1
+        }
+    ],
+    "europa": [
+        {
+            "id" : 1,
+            "title" : ["Don't Start Now","Bad Romance","Supernatural" ],
+            "singer" : ["Dua Lipa","Lady Gaga","Geri Halliwell","Santana"],
+            "genre" : ["pop","electropop","Post-disco","Latin rock"],
+            "date"  : ["2020","2010","2000"]
+        },
+        {
+            "id" : 2 ,
+            "title" : ["Own It","Russian Roulette","All the Way... A Decade of Song"],
+            "singer" : ["Stormzy, Ed Sheeran & Burna Boy","Rihanna"," Celine Dion"],
+            "genre" : ["Hip hop","R&B","pop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 3 ,
+            "title" : ["Memories","Tik Tok"," And Then There Was X"],
+            "singer" : [" Maroon 5","Ke$ha","DMX"],
+            "genre" : ["pop","electropop","Hip hop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 4 ,
+            "title" : ["Dance Monky","Empire State Of Mind","Christina Aguilera"],
+            "singer" : ["Tones And I","Jay-Z & Alicia Keys","Christina Aguilera"],
+            "genre" : ["pop","Hip hop","Dance-pop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 5 ,
+            "title" : ["Blinding Lights","Meet Me Halfway","Vol. 3... Life and Times of S. Carter"],
+            "singer" : ["Weeknd","Black Eyed Peas"," Jay-Z"],
+            "genre" : ["electropop","Dance-pop","Hip hop"],
+            "date"  : ["2020","2010","2000"]
+        },
+          { 
+            "id" : 6 ,
+            "title" : ["Roxanne","I Gotta Feeling","2001"],
+            "singer" : ["Arizona Zervas"," The Black Eyed Peas","Dr. Dre"],
+            "genre" : ["pop rap","Dance-pop","Hip hop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 7 ,
+            "title" : ["Everything I Wanted","Whatcha Say","Europop"],
+            "singer" : [" Billie Eilish","Jason Derulo","Eiffel 65"],
+            "genre" : ["indie pop","R&B","Italo dance"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 8 ,
+            "title" : ["Before You Go ","Sexy Bitch","Millennium"],
+            "singer" : ["Lewis Capaldi","David Guetta & Akon","Backstreet Boys"],
+            "genre" : ["alternative rock","Electro-hop","pop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 9 ,
+            "title" : ["Lose You to Love Me","All I Want for Christmas Is You","Devil Without A Cause "],
+            "singer" : ["Selena Gomez","Mariah Carey","Kid Rock"],
+            "genre" : ["pop","dance-pop","rock"],
+            "date"  : ["2020","2010","2000"]
+        }  ,
+        {
+            "id" : 10 ,
+            "title" : ["10,000 Hours","Haven't Met You Yet","Baby One More Time"],
+            "singer" : ["Dan & Shay, Justin Bieber","Michael Buble","Britney Spears"],
+            "genre" : ["Country pop","pop","dance-pop"],
+            "date"  : ["2020","2010","2000"]
+        }
+    ],
+    "asia": [
+        {
+            "id" : 1,
+            "title" : ["Dance Monky","Fireflies"],
+            "singer" : ["Tones And I","Owl City"],
+            "genre" : ["pop","alternative rock"],
+            "date"  : ["2020",""]
+        },
+        {
+            "id" : 2 , 
+            "title" : ["Memories"],
+            "singer" : [" Maroon 5"],
+            "genre" : ["pop"]
+        },
+         {
+            "id" : 3 ,
+            "title" : ["Conversations With ET"],
+            "singer" : ["Hua Chenyu"],
+            "genre" : ["Mandopop, rock"]
+        } ,
+         {
+            "id" : 4 ,
+            "title" : ["Don't Start Now","Tik Tok"],
+            "singer" : ["Dua Lipa","Ke$ha"],
+            "genre" : ["pop","electropop"]
+        } ,
+         {
+            "id" : 5 ,
+            "title" : ["10,000 Hours"],
+            "singer" : ["Dan & Shay, Justin Bieber",""],
+            "genre" : ["Country pop"," "]
+        },
+          {
+            "id" : 6 ,
+            "title" : ["Lose You to Love Me"],
+            "singer" : ["Selena Gomez",""],
+            "genre" : ["pop"," "]
+        } ,
+         {
+            "id" : 7 ,
+            "title" : ["Rebirth"],
+            "singer" : ["Cai Xukun"],
+            "genre" : ["Dance & Electronic"]
+        } ,
+         {
+            "id" : 8 ,
+            "title" :[ "Into The Unknown"],
+            "singer" : ["Panic! At The Disco Version"],
+            "genre" : ["Soundtracks"]
+        } ,
+         {
+            "id" : 9 ,
+            
+            "title" : ["Roxanne",""],
+            "singer" : ["Arizona Zervas"," "],
+            "genre" : ["pop rap",""]
+        }  ,
+        {
+            "id" : 10 ,
+            "title" :[ "Fu Yun"],
+            "singer" : ["Allen Ren"],
+            "genre" : ["Chinese"]
+        }
+    ],
+    "africa": [
+        {
+            "id" : 1,
+            "title" : ["Blinding Lights",""],
+            "singer" : ["Weeknd"],
+            "genre" : ["electropop"],
+            "date"  : ["2020"]
+        },
+        {
+            "title" : ["Ubomi Abumanga "],
+            "singer" : ["Sun-EL Musician Feat. Msaki"],
+            "genre" : ["electronic"]
+        } ,
+         {
+            "id" : 3 ,
+            "title" : ["Surrender ",],
+            "singer" : ["Natalie Taylor"],
+            "genre" : ["Indie & Alternative "]
+        } ,
+         {
+            "id" : 4 ,
+            "title" : ["You're the One"],
+            "singer" : ["Elaine"],
+            "genre" : ["R&B"]
+        } ,
+         {
+            "id" : 5 ,
+            "title" : "Stuck with U",
+            "singer" : "Ariana Grande & Justin Bieber",
+            "genre" : "pop"
+        },
+          {
+            "id" : 6 ,
+            "title" : ["Go Crazy"],
+            "singer" : ["Chris Brown & Young Thug"],
+            "genre" : ["R&B"]
+        } ,
+         {
+            "id" : 7 ,
+            "title" : ["Price To Pay (feat. Blaq Diamond & Malome Vector)"],
+            "singer" : ["Miss Pru"],
+            "genre" : ["Hip hop"]
+        } ,
+         {
+            "id" : 8 ,
+            "title" : ["Sonop-Blom"],
+            "singer" : ["Bernice West"],
+            "genre" : ["Afrikaans"]
+        } ,
+         {
+            "id" : 9 ,
+            "title" : ["Memories"],
+            "singer" : [" Maroon 5"],
+            "genre" : ["pop"]
+        }  ,
+        {
+            "id" : 10 ,
+            "title" : ["Die Hart"],
+            "singer" : [" Bernice West"],
+            "genre" : ["Afrikaans"]
+        }
+
+    ],
+    "northxamerica": [
+        {
+            "id" : 1,
+            "title" : ["Circles","Tik Tok"],
+            "singer" : ["Post Malone song","Ke$ha"],
+            "genre" : ["pop","electropop"],
+            "date"  : ["2020","2010","2000"]
+        },
+        {
+            "id" : 2 ,
+            "title" : ["Memories","Replay"],
+            "singer" : [" Maroon 5","Iyaz"],
+            "genre" : ["pop","pop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 3 ,
+            "title" : ["The Box","Bad Romance"],
+            "singer" : ["Roddy Ricch","Lady Gaga"],
+            "genre" : ["Hip hop","electropop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 4 ,
+            "title" : ["Someone You Loved"],
+            "singer" : ["Lewis Capaldi"],
+            "genre" : ["Indie & Alternative "],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 5 ,
+            "title" : ["Roxanne"],
+            "singer" : ["Arizona Zervas"],
+            "genre" : ["Chinese"],
+            "date"  : ["2020","2010","2000"]
+        },
+          {
+            "id" : 6 ,
+            "title" : ["Good as Hell"],
+            "singer" : ["Lizzo"],
+            "genre" : ["pop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 7 ,
+            "title" : ["Roxanne"],
+            "singer" : ["Arizona Zervas"],
+            "genre" : ["pop rap"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 8 ,
+            "title" : ["Dance Monky",""],
+            "singer" : ["Tones And I"],
+            "genre" : ["pop",""],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 9 ,
+            "title" : ["HIGHEST IN THE ROOM"],
+            "singer" : ["Travis Scott"],
+            "genre" : ["Hip hop"],
+            "date"  : ["2020","2010","2000"]
+        }  ,
+        {
+            "id" : 10 ,
+            "title" : ["10,000 Hours"],
+            "singer" : ["Dan & Shay, Justin Bieber"],
+            "genre" : ["Country pop"],
+            "date"  : ["2020","2010","2000"]
+        }
+    ],
+    "australia": [
+        {
+            "id" : 1,
+            "title" : ["Dance Monky","","Fireflies"],
+            "singer" : ["Tones And I","Owl City"],
+            "genre" : ["pop","alternative rock"],
+            "date"  : ["2020","2010","2000"]
+        },
+        {
+            "id" : 2 ,
+            "title" : ["Don't Start Now","Tik Tok"],
+            "singer" : ["Dua Lipa","Ke$ha"],
+            "genre" : ["pop","electropop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 3 ,
+            "title" : ["Roxanne","Bad Romance","2001"],
+            "singer" : ["Arizona Zervas","Lady Gaga"," "],
+            "genre" : ["pop rap","electropop"],
+            "date"  : ["2020","2010","2000"]
+            
+        } ,
+         {
+            "id" : 4 ,
+            "title" : ["Memories","Black Box"," And Then There Was X"],
+            "singer" : [" Maroon 5","Stan Walker",""],
+            "genre" : ["pop","R&B"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 5 ,
+            "title" : ["Circles","Whatcha Say"],
+            "singer" : ["Post Malone song"," Jason Derulo"],
+            "genre" : ["pop rock","R&B"],
+            "date"  : ["2020","2010","2000"]
+        },
+          {
+            "id" : 6 ,
+            "title" : ["Ride It","Starstrukk"],
+            "singer" : ["Regard"," 3oh3"],
+            "genre" : ["Dance & Electronic","electropop"],
+            "date"  : ["2020","2010","2000"]
+        } ,
+         {
+            "id" : 7 ,
+            "title" : ["Blinding Lights","Empire State Of Mind","Vol. 3... Life and Times of S. Carter"],
+            "singer" : ["Weeknd","Jay-Z & Alicia Keys",""],
+            "genre" : ["electropop","Hip hop"]
+        } ,
+         {
+            "id" : 8 ,
+            "title" : ["Never Seen The Rain","Down"],
+            "singer" : [" Tones And I","Jay Sean & Lil Wayne"],
+            "genre" : ["alternative rock","Hip hop"]
+        } ,
+         {
+            "id" : 9 ,
+            "title" : ["Good As Hell","Art Of Love"],
+            "singer" : ["Lizzo","Guy Sebastian"],
+            "genre" : ["pop","pop"],
+            "date"  : ["2020","2010","2000"]
+        }  ,
+        {
+            "id" : 10 ,
+            "title" : ["Adore You ","Replay"],
+            "singer" : ["Harry Styles","Iyaz"],
+            "genre" : ["pop","pop"],
+            "date"  : ["2020","2010","2000"]
+        }
+    ],
+    "southamerica": [
+        {
+            "id" : 1,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        },
+        {
+            "id" : 2 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        } ,
+         {
+            "id" : 3 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        } ,
+         {
+            "id" : 4 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        } ,
+         {
+            "id" : 5 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        },
+          {
+            "id" : 6 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        } ,
+         {
+            "id" : 7 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        } ,
+         {
+            "id" : 8 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        } ,
+         {
+            "id" : 9 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        }  ,
+        {
+            "id" : 10 ,
+            "title" : "",
+            "singer" : "",
+            "genre" : ""
+        }
+    ]
+}
