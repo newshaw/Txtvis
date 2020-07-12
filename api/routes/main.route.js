@@ -1,17 +1,35 @@
 var express    = require('express');  
 var router = express.Router();   
-var data = require('../data/data.json');              // get an instance of the express Router
+var fh = require('../helpers/FileReader');
 
 router.get('/', function(req, res) {
-    res.json(data);   
+    res.json({
+
+    });   
 });
 
-router.get('/africa', function(req, res) {
-    res.json(data.africa);   
+router.get('/pop/list', function(req, res) {
+    const list = fh.getListByGenre('pop')
+    if(!list){
+        res.status(404).json({
+            message: "object cannot be found"
+        })
+        return
+    }
+    res.json(list);
 });
 
-router.get('/asia', function(req, res) {
-    res.json(data.asia); 
+
+router.get('/pop/:year', function(req, res) {
+    const list = fh.getGenreSongByYear('pop',req.params.year)
+    
+    if(!list){
+        res.status(404).json({
+            message: "object cannot be found"
+        })
+        return
+    }
+    res.json(list);   
 });
 
 module.exports = router
