@@ -33,5 +33,5 @@ function genreGuard(genre) {
 function readGenreByYear(genre, year) {
     const filePath = path.resolve(baseDataFolder, genre, `${year}.json`)
     const data = fs.readFileSync(filePath)
-    return JSON.parse(data)
+    return JSON.parse(data.toString())
 }
