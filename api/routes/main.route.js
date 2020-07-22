@@ -19,7 +19,6 @@ router.get('/pop/list', function (req, res) {
 
 router.get('/pop/:year', function (req, res) {
     const list = fh.getGenreSongByYear('pop', req.params.year)
-
     if (!list) {
         res.status(404).json({
             message: "object cannot be found"
@@ -42,7 +41,6 @@ router.get('/rock/list', function (req, res) {
 
 router.get('/rock/:year', function (req, res) {
     const list = fh.getGenreSongByYear('rock', req.params.year)
-
     if (!list) {
         res.status(404).json({
             message: "object cannot be found"
@@ -65,7 +63,6 @@ router.get('/hip_hop/list', function (req, res) {
 
 router.get('/hip_hop/:year', function (req, res) {
     const list = fh.getGenreSongByYear('hip_hop', req.params.year)
-
     if (!list) {
         res.status(404).json({
             message: "object cannot be found"
@@ -89,7 +86,6 @@ router.get('/dance/list', function (req, res) {
 
 router.get('/dance/:year', function (req, res) {
     const list = fh.getGenreSongByYear('hip_hop', req.params.year)
-
     if (!list) {
         res.status(404).json({
             message: "object cannot be found"
