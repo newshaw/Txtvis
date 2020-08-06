@@ -11,7 +11,7 @@
                 </b-card-text>
             </b-card>
             <b-list-group>
-                <b-list-group-item class="text-left" v-for="year in genreList"
+                <b-list-group-item class="text-left" v-for="year in yearsList"
                                    v-bind:key="year">
                     <span>Top songs for year {{year}}</span>
                     &nbsp;
@@ -35,7 +35,7 @@
         data() {
             return {
                 genre: {},
-                genreList: []
+                yearsList: []
             }
         },
         created() {
@@ -45,7 +45,7 @@
         methods: {
             getGenreList() {
                 gate.getGenreList(this.genre.id).then(res => {
-                    this.genreList = res.data;
+                    this.yearsList = res.data;
                 })
             }
         }
