@@ -22,6 +22,21 @@
                 </b-card-text>
             </b-card>
 
+            <b-card class="text-left mb-5" title="Words Cloud"
+                    :sub-title="'#'+selectedSong.id+ ' : '+ selectedSong.songs +' by ' + selectedSong.singer">
+                <b-card-text>
+                    <vue-word-cloud
+                            style="
+    height: 680px;
+    width: 100%;
+  "
+                            :words="wordsCloudData"
+                            :color="([, weight]) => weight > 10 ? 'DeepPink' : weight > 5 ? 'RoyalBlue' : 'Indigo'"
+                            font-family="Roboto"
+                    />
+                </b-card-text>
+            </b-card>
+
             <h5 class="text-left text-muted pl-2"># Other songs for this year : </h5>
             <b-list-group>
                 <b-list-group-item class="text-left" v-for="song in otherSongs"
@@ -55,20 +70,56 @@
                 year: "",
                 otherSongs: [],
                 selectedSong: {},
+                wordsCloudData: []
             }
         },
         created() {
-            this.genre = genres.filter(g => g.id === this.$route.params.genre)[0]
-            this.year = this.$route.params.year
-            this.getSongById()
+            this.initPage()
+        },
+        watch: {
+            '$route.params.id': {
+                handler: function () {
+                    this.initPage()
+                },
+                deep: true,
+                immediate: true
+            }
         },
         methods: {
+            initPage() {
+                this.genre = genres.filter(g => g.id === this.$route.params.genre)[0]
+                this.year = this.$route.params.year
+                this.getSongById()
+            },
             getSongById() {
                 gate.getGenreYearTopSongs(this.genre.id, this.year).then(res => {
                     this.selectedSong = res.data.filter(s => s.id == this.$route.params.id)[0]
                     this.otherSongs = res.data.filter(s => s.id != this.$route.params.id);
                     this.selectedSong.lyrics = this.selectedSong.lyrics.split("--").join('\n')
+                    this.fillWordsCloudData()
                 })
+            },
+            fillWordsCloudData() {
+                this.wordsCloudData = [];
+                const words = this.selectedSong.lyrics.split(/\s/g);
+                let wordsDataObject = {}
+                for (const word of words) {
+                    if (wordsDataObject[word])
+                        wordsDataObject[word]++
+                    else
+                        wordsDataObject[word] = 1
+                }
+                wordsDataObject = this.deleteInvalidWords(wordsDataObject)
+                const keys = Object.keys(wordsDataObject)
+                keys.forEach(key => {
+                    this.wordsCloudData.push([key, wordsDataObject[key]])
+                })
+            },
+            deleteInvalidWords(wordsObject) {
+                delete wordsObject[""]
+                delete wordsObject["-"]
+                delete wordsObject["the"]
+                return wordsObject
             }
         }
     };
